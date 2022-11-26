@@ -1,0 +1,367 @@
+.banner{
+	width:100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.banner img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+.banner .content{
+	position: relative;
+	z-index:1;
+	max-width: 1000px;
+	max-height: 1000px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.content h1{
+	color: white;
+	font-family: cursive;
+	translate: inherit;
+}
+.content p{
+	color: white;
+	font-size: 20px;
+}
+.banner1{
+	width:100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.banner1 img{
+	position: absolute;
+	margin-top: -10px;
+	object-fit: cover;
+	width: 100%;
+	height: 100vh;
+	pointer-events: none;
+}
+.banner1 .content1{
+	position: relative;
+	z-index:1;
+	max-width: 1000px;
+	max-height: 1000px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+
+.ocean{
+  background:transparent;
+}
+
+svg#fish {
+  top: 5em;
+}
+/* Fish Animation */
+svg.fish{
+  overflow:visible;
+}
+
+@-webkit-keyframes swim
+{
+	0% {margin-left: -235px}
+	90% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+@keyframes swim
+{
+	0% {margin-left: -235px}
+	70% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+.fish{
+	width: 235px;
+	height: 104px;
+	margin-left: -10px;
+	position: absolute;	
+	animation: swim 60s;
+	-webkit-animation: swim 60s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+}
+
+svg #fish1,
+svg #fish2,
+svg #fish3,
+svg #fish4,
+svg #fish5,
+svg #fish6
+svg #fish7
+svg #fish8 {
+fill:white;
+  
+    -moz-animation: bounce 6s infinite;
+  -webkit-animation: bounce 6s infinite;
+  animation: bounce 6s infinite;
+}
+
+svg #fish2{
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+
+svg #fish3{
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+
+svg #fish4{
+	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
+}
+
+svg #fish5{
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+}
+
+svg #fish6{
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+svg #fish7{
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+svg #fish8{
+	animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s;
+}
+
+/**/
+@-moz-keyframes bounce {
+  0%, 50%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -moz-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -moz-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 50%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+@keyframes bounce {
+  0%, 50%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25% {
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  75% {
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+}
+
+/*END Fish Animation*/
+.ocean h2{
+	color: white;
+	font-family: monospace;
+}
+.banner2{
+	width:100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.banner2 img{
+	position: absolute;
+	margin-top: -10px;
+	object-fit: cover;
+	width: 100%;
+	height: 100vh;
+	pointer-events: none;
+}
+.banner2 .content2{
+	position: relative;
+	z-index:1;
+	max-width: 1000px;
+	max-height: 1000px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+/* tangerine font */
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,700');
+
+@keyframes fadeInDown {
+  0% {
+    opacity: .8;
+    transform: none;
+  }
+
+  25% {
+    opacity: 1;
+    transform: translate(0, 15px);
+  }
+  
+  50% {
+    opacity: 1;
+    transform: translate(0, 30px);
+  }
+  
+  75% {
+    opacity: 1;
+    transform: translate(0, 15px);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDownText {
+  0% {
+    opacity: .8;
+    transform: none;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0, 35px);
+  }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+.fadeInDownText {
+    -webkit-animation-name: fadeInDownText;
+    animation-name: fadeInDownText;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-top: -10px;
+}
+
+.underwater {
+  position: relative;
+  height: 600px;
+  width: 100%;
+  background-color: #4fc3da;
+}
+
+.move-down{
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 15;
+    animation-iteration-count: 15;
+}
+
+.text-delay {
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-delay: 2s;
+    -webkit-animation-iteration-count: 15;
+    animation-iteration-count: 15;
+}
+
+.submarine {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  background: url("http://www.abbeyjfitzgerald.com/wp-content/uploads/2017/03/little-submarine.svg") no-repeat;
+}
+
+
+
+.moving-content {
+  font-family: 'Raleway', sans-serif;
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+  color: white;
+}
+
+.moving-content h2 {
+  color: #4d275f;
+}
+
+.wave{
+  background-color: #afdee8;
+  height: 50px;
+  position: relative;
+}
+.wave::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 10px;
+  background-size: 20px 20px;
+  background-image:
+    radial-gradient(circle at 10px -5px, transparent 12px, #4fc3da 13px);
+}
+.wave::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 15px;
+  background-size: 80px 20px;
+  background-image:
+    radial-gradient(circle at 30px 15px, #4fc3da 12px, transparent 13px);
+}
+.last{
+	font-family: monospace;
+	font-size: 10px;
+	text-align: center;
+}
+
